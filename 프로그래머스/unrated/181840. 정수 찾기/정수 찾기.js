@@ -1,0 +1,1 @@
+const solution = (num_list, n) =>  num_list.some(a => a === n) ? 1 : 0
