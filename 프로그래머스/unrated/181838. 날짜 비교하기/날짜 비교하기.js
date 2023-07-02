@@ -1,0 +1,1 @@
+const solution = (date1, date2) => new Date(date1.toString()) < new Date(date2.toString()) ? 1 : 0;
