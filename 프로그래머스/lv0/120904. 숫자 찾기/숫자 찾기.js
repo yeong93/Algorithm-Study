@@ -1,0 +1,1 @@
+const solution = (num, k) => String(num).indexOf(k)+1 || -1;
