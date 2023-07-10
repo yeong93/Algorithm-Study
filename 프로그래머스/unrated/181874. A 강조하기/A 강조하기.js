@@ -1,10 +1,9 @@
 function solution(myString) {
-    let arr = myString.split('');
     var answer = '';
-    arr.forEach(function(el){
-       if(el === 'a'){
+    [...myString].forEach(function(el){
+       if(el === 'a' || el === 'A'){
            answer += 'A'; 
-       }else if(el !== 'A' && el.toUpperCase() === el){
+       }else if(el.toUpperCase() === el){
            answer += el.toLowerCase();
        }else{
            answer += el;
