@@ -1,0 +1,1 @@
+const solution = (num_list) => num_list.findIndex(item => item < 0);
