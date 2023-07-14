@@ -1,0 +1,1 @@
+const solution = (num_list) => num_list.sort((a,b) => a-b).filter((item,index) => index>4);
