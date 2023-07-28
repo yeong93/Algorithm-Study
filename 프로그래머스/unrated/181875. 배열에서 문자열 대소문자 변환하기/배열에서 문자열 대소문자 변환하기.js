@@ -1,0 +1,1 @@
+const solution = (strArr) => [...strArr].map((item, idx) => (idx%2===0) ? item.toLowerCase() : item.toUpperCase());
