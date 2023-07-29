@@ -1,0 +1,1 @@
+const solution = (my_string) => [...my_string].map(Number).filter(v => !isNaN(v)).sort();
