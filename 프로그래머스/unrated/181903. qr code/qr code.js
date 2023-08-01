@@ -1,0 +1,1 @@
+const solution = (q, r, code) => code.split('').filter((v,idx) => idx%q===r).join('');
