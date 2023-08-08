@@ -1,0 +1,1 @@
+const solution = n => n.toString().split('').reduce((acc,cur)=> acc += +cur,0);
