@@ -1,0 +1,1 @@
+const solution = n => Array(n).fill().map((v,i) => i%2===0 ? '수' : '박').join('');
