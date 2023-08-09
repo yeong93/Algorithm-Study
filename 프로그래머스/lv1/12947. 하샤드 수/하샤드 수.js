@@ -1,0 +1,1 @@
+const solution = x => x % (''+x).split('').map(Number).reduce((acc,cur)=> acc+=cur,0) === 0 ? true : false;
