@@ -1,0 +1,1 @@
+const solution = (absolutes, signs) => absolutes.map((v,idx) => signs[idx] ? v : -v).reduce((acc,cur) => acc+=cur,0);
