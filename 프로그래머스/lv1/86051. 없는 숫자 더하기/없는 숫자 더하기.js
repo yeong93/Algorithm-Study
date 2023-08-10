@@ -1,0 +1,1 @@
+const solution = (numbers) => Array(10).fill().map((v,i)=>i).filter(v=> !numbers.includes(v)).reduce((acc,cur)=> acc+=cur, 0);
