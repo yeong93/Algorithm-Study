@@ -1,0 +1,1 @@
+const solution = n => Array(n).fill().map((v,i) => i+1).filter(v => n%v===0).reduce((acc,cur) => acc+=cur,0);
