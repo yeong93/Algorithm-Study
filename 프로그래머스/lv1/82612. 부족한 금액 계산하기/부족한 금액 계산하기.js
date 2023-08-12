@@ -1,0 +1,2 @@
+const solution = (price, money, count) =>
+Array(count).fill().map((v,i) => price*(i+1)).reduce((acc,cur) => acc+=cur,0) - money > 0 ? Array(count).fill().map((v,i) => price*(i+1)).reduce((acc,cur) => acc+=cur,0) - money : 0;
