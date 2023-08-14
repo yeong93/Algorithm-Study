@@ -1,0 +1,1 @@
+const solution = n => new Array(n).fill(new Array(n).fill(0)).map((a,i) => a.map((b,j) => i==j ?1:0));
