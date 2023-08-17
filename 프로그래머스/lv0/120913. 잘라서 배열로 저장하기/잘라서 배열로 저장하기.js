@@ -1,8 +1,7 @@
 function solution(my_str, n) {
     var answer = [];
-    let arr = my_str.split('');
-    for(let i=0; i<my_str.length/n; i++){
-        answer.push(arr.splice(0,n).join(''));
+    for(let i=0; i<my_str.length; i+=n){
+        answer.push(my_str.substr(0+i,n));
     }
     return answer;
 }
