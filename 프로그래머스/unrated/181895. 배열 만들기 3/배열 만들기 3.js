@@ -1,0 +1,1 @@
+const solution = (arr, intervals) => intervals.reduce((acc,[idx1,idx2])=> acc.concat(arr.slice(idx1,idx2+1)),[]);
