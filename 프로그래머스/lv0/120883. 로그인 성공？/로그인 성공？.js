@@ -1,0 +1,1 @@
+const solution = (id_pw, db) => db.filter(v=>v[0] ===id_pw[0] && v[1] === id_pw[1]).length>0 ? 'login' : db.filter(v=> v[0] === id_pw[0]).length>0 ? 'wrong pw' : 'fail';
