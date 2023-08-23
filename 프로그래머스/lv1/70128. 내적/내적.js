@@ -1,0 +1,1 @@
+const solution = (a, b) => a.map((v,i) => v*b[i]).reduce((acc,cur)=> acc+=cur,0);
