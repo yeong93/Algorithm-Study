@@ -1,0 +1,1 @@
+const solution = s => [...s].map((v,i)=>s.charCodeAt(i)).sort((a,b)=>b-a).map(v=> String.fromCharCode(v)).join('');
