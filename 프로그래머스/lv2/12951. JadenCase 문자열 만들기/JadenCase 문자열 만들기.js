@@ -1,0 +1,1 @@
+const solution = s => s.split(' ').map((v,i) => v.charAt(0).toUpperCase() + v.substr(1).toLowerCase()).join(' ')
