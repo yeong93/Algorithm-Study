@@ -1,0 +1,2 @@
+const solution = (n, slicer, num_list) => 
+num_list.filter((v,i) => n===1 ? i<=slicer[1] : n===2 ? i>=slicer[0] : n===3 ? i>=slicer[0] && i<=slicer[1] :i>=slicer[0] && i<=slicer[1] && i%slicer[0]===0);
