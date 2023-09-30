@@ -1,0 +1,10 @@
+SELECT ANIMAL_ID
+     , NAME
+  FROM (SELECT ROW_NUMBER() OVER(ORDER BY B.DATETIME-A.DATETIME DESC) AS RNUM
+             , A.ANIMAL_ID
+             , A.NAME
+          FROM ANIMAL_INS A
+             , ANIMAL_OUTS B
+         WHERE A.ANIMAL_ID = B.ANIMAL_ID
+        )
+WHERE RNUM <= 2
